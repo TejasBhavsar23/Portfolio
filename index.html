@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tejas Bhavsar Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Tejas Bhavsar</h1>
+        <p>Aspiring Java Developer | Tech Enthusiast | Problem Solver</p>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2 class="section-title">About Me</h2>
+        <p>I am an aspiring Java Developer with expertise in core and advanced Java, familiar with databases like SQL and MongoDB. Currently in my 3rd year of B.Tech at R.C. Patel Institute of Technology, I am passionate about developing scalable applications using technologies such as Spring Framework. I'm a problem-solver at heart, always eager to learn and adapt to new tech trends to deliver efficient and impactful solutions.</p>
+    </section>
+
+    <section id="skills">
+        <h2 class="section-title">Skills</h2>
+        <div class="skills-list">
+            <div class="card">Java (Core + Advanced)</div>
+            <div class="card">Spring Framework</div>
+            <div class="card">SQL</div>
+            <div class="card">MongoDB</div>
+            <div class="card">Node.js</div>
+            <div class="card">Express.js</div>
+            <div class="card">REST APIs</div>
+            <div class="card">Data Structures and Algorithms</div>
+            <div class="card">Object-Oriented Programming</div>
+            <div class="card">Git & GitHub</div>
+            <div class="card">Debugging</div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2 class="section-title">Projects</h2>
+        <div class="projects-list">
+            <div class="card">
+                <h3>EpicEats: Online Food Ordering Website</h3>
+                <p>Designed a full-featured online food ordering platform with roles for Admin, User, Delivery Person, and Hotels. Includes order tracking, OTP verification, and mess subscription system.</p>
+            </div>
+            <div class="card">
+                <h3>WareHouseX: Inventory Management</h3>
+                <p>Inventory Management System built using Spring for tracking raw and processed materials. Features admin roles and real-time stock level updates.</p>
+            </div>
+            <div class="card">
+                <h3>ResolveR: CRM for ISPs</h3>
+                <p>CRM platform designed for managing ISP customers, servicemen, and complaints. Includes role-based access and OTP-based complaint resolution.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2 class="section-title">Contact Me</h2>
+        <form onsubmit="event.preventDefault(); alert('Message sent!');">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>Connect: <a href="mailto:bhavsartejas408@gmail.com">bhavsartejas408@gmail.com</a> | 
+        <a href="https://www.linkedin.com/in/tejas-bhavsar-934465203/" style="color: #00adb5;">LinkedIn</a> | 
+        <a href="https://github.com/TejasBhavsar23" style="color: #00adb5;">GitHub</a> | 
+        <a href="https://leetcode.com/u/itz_tejas_23/" style="color: #00adb5;">Leetcode</a> | 
+        <a href="https://www.codechef.com/users/tejas_bhavsar2" style="color: #00adb5;">CodeChef</a></p>
+        <p>&copy; 2025 Tejas Bhavsar. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
